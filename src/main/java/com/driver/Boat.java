@@ -5,6 +5,7 @@ public class Boat implements WaterVehicle{
     private int capacity;
 
     public Boat(){
+        super();
     }
     public Boat(String name, int capacity){
         this.name = name;
